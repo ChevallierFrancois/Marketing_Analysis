@@ -57,7 +57,7 @@ new_data = scale(new_data)
 head(new_data)
 
 
-# --- RUNNING A HIERARCHICAL SEGMENTATION ------------------
+# RUNNING A HIERARCHICAL SEGMENTATION
 
 
 # Compute distance metrics on standardized data
