@@ -1,5 +1,5 @@
 
-# Scoring
+# SCORING
 
 # --- COMPUTING PREDICTORS AND TARGET VARIABLES ------------
 
