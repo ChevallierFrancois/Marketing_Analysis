@@ -1,4 +1,4 @@
-# --- EXPLORE THE DATA -------------------------------------
+#  EXPLORE THE DATA 
 
 # Load text file into local variable called 'data'
 data = read.delim(file = 'purchases.txt', header = FALSE, sep = '\t', dec = '.')
