@@ -1,7 +1,7 @@
 
 # SCORING
 
-# --- COMPUTING PREDICTORS AND TARGET VARIABLES ------------
+# COMPUTING PREDICTORS AND TARGET VARIABLES
 
 
 # Load text file into local variable called 'data'
@@ -45,7 +45,7 @@ head(in_sample)
 summary(in_sample)
 
 
-# --- CALIBRATE THE MODELS ---------------------------------
+# CALIBRATE THE MODELS
 
 
 # Calibrate probability model
@@ -78,7 +78,7 @@ summary(amount.model)
 plot(x = log(in_sample[z, ]$revenue_2015), y = amount.model$fitted.values)
 
 
-# --- APPLY THE MODELS TO TODAY'S DATA ---------------------
+# APPLY THE MODELS TO TODAY'S DATA
 
 
 # Compute RFM variables as of today
