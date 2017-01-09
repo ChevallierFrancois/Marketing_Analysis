@@ -36,7 +36,7 @@ hist(customers$amount)
 hist(customers$amount, breaks = 100)
 
 
-# --- PREPARING AND TRANSFORMING DATA ----------------------
+# PREPARING AND TRANSFORMING DATA 
 
 
 # Copy customer data into new data frame
