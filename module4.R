@@ -2,7 +2,7 @@
 #  CUSTOMER LIFETIME VALUE
 
 
-# --- SEGMENT CUSTOMERS IN 2014 AND 2015 -------------------
+#  SEGMENT CUSTOMERS IN 2014 AND 2015
 
 
 # Load text file into local variable called 'data'
@@ -66,7 +66,7 @@ customers_2014$segment = factor(x = customers_2014$segment, levels = c("inactive
                                                                        "active high value", "active low value", "new active"))
 
 
-# --- COMPUTE TRANSITION MATRIX ----------------------------
+#  COMPUTE TRANSITION MATRIX 
 
 
 # Compute transition matrix
@@ -80,7 +80,7 @@ transition = transition / rowSums(transition)
 print(transition)
 
 
-# --- USE TRANSITION MATRIX TO MAKE PREDICTIONS ------------
+#  USE TRANSITION MATRIX TO MAKE PREDICTIONS 
 
 
 # Initialize a matrix with the number of customers in each segment today and after 10 periods
@@ -103,7 +103,7 @@ barplot(segments[2, ])
 print(round(segments))
 
 
-# --- COMPUTE THE (DISCOUNTED) CLV OF A DATABASE -----------
+# COMPUTE THE (DISCOUNTED) CLV OF A DATABASE 
 
 
 # Yearly revenue per segment
