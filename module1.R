@@ -1,6 +1,6 @@
 # STATISTICAL SEGMENTATION
 
-# --- COMPUTING RECENCY, FREQUENCY, MONETARY VALUE ---------
+# COMPUTING RECENCY, FREQUENCY, MONETARY VALUE 
 
 
 # Load text file into local variable called 'data'
